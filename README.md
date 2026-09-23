@@ -873,3 +873,9 @@ If the system cannot answer those questions, adding more agents will not solve t
 The objective is not autonomous marketing.
 
 The objective is disciplined, evidence-driven marketing that AI can safely accelerate.
+
+---
+
+## Application requirements
+
+The normative application requirements are in `REQUIREMENTS.md`. They require Aegis for unexpected operational failures at architectural boundaries, Forma for interactive browser UI, and Folio for printable/PDF/paginated marketing artifacts when applicable. These rules apply to all features described in this README as they become implemented application behavior.
