@@ -32,4 +32,18 @@ Folio does not become the presentation system for ordinary interactive applicati
 
 Aegis, Forma, and Folio dependencies MUST be pinned to released versions or immutable artifacts. Floating versions and moving repository branches are not valid baselines.
 
+Current baselines:
+
+- `EchelonFoundry.Aegis.Core` **1.0.0**.
+- `@echelon-foundry/design-system` (Forma) **0.2.0**, consumed from the
+  immutable v0.2.0 release artifact until npm is the selected canonical source.
+- `@echelon-foundry/print-components` (Folio) **0.3.0**. Until a canonical
+  v0.3.0 package/release artifact exists, pin immutable Folio commit
+  `2b101b6d840a670abb959148fff8e1477c059eda`; once published, pin the exact
+  canonical package version.
+
+Merely listing a shared dependency is not sufficient. Completion requires
+evidence that the applicable canonical capability is actually used.
+
+
 A requirement that uses an applicable shared capability is complete only when automated evidence proves actual use, relevant Aegis boundary behavior, Forma browser/mobile/accessibility behavior, Folio print/PDF behavior, and any approved exception.
